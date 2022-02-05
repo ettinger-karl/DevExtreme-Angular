@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44363',
+    issuer: 'https://host.docker.internal:44363',
     redirectUri: baseUrl,
     clientId: 'DevExtremeAngular_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'https://localhost:44363',
+      url: 'https://host.docker.internal:44363',
       rootNamespace: 'DevExtremeAngular',
     },
   },
